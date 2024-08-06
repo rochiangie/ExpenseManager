@@ -1,21 +1,34 @@
-buildscript {
-    ext {
-        buildToolsVersion = "34.0.0"
-        minSdkVersion = 23
-        compileSdkVersion = 34
-        targetSdkVersion = 34
-        ndkVersion = "26.1.10909125"
-        kotlinVersion = "1.9.22"
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.gestorgastos"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
     }
-    repositories {
-        google()
-        mavenCentral()
+
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/rocio/ExpenseManager/GestorGastos/android/app/my-release-key.jks')
+            storePassword '123456'
+            keyAlias 'my-key-alias'
+            keyPassword '123456'
+        }
     }
-    dependencies {
-        classpath("com.android.tools.build:gradle")
-        classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
     }
 }
 
-apply plugin: "com.facebook.react.rootproject"
+dependencies {
+    implementation "com.facebook.react:react-native:0.70.0"
+    // otras dependencias
+}

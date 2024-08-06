@@ -1,14 +1,7 @@
 {
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react-native"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  }
 }
-
