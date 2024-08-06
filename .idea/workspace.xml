@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2c8135-4eed-412f-a841-810d1d28ee18" name="Changes" comment="" />
+    <list default="true" id="2a2c8135-4eed-412f-a841-810d1d28ee18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/x86/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/x86/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/x86_64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/.cxx/Debug/3a3g1qx7/x86_64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/arm64-v8a/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/arm64-v8a/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/armeabi-v7a/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/armeabi-v7a/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/x86/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/x86/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/x86_64/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-reanimated/android/build/intermediates/cxx/Debug/3a3g1qx7/logs/x86_64/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/arm64-v8a/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/arm64-v8a/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/armeabi-v7a/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/armeabi-v7a/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/x86/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/x86/metadata_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/x86_64/metadata_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/cxx/Debug/42a592y6/logs/x86_64/metadata_generation_record.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kFuZHA69ZWJTDrDprPVYf0xbfD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +47,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "a__ver",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/rocio/ExpenseManager",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
