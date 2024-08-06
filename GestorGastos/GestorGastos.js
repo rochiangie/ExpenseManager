@@ -7,6 +7,8 @@ import HomeScreen from './src/components/HomeScreen';
 import AddExpenseScreen from './src/components/AddExpenseScreen';
 import ExpenseListScreen from './src/components/ExpenseListScreen';
 import CategoryChartScreen from './src/components/CategoryChartScreen';
+import App from './App';
+
 
 const Stack = createStackNavigator();
 
