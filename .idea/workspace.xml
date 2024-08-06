@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2c8135-4eed-412f-a841-810d1d28ee18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestorGastos/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GestorGastos/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestorGastos/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GestorGastos/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestorGastos/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/GestorGastos/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="2a2c8135-4eed-412f-a841-810d1d28ee18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +29,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "AnalyzeApkAction.lastApkPath": "C:/Users/rocio/ExpenseManager",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -53,7 +49,7 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
-      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="true" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />

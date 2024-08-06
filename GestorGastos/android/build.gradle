@@ -1,34 +1,24 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-
-android {
-    compileSdkVersion 30
-    defaultConfig {
-        applicationId "com.gestorgastos"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+buildscript {
+    ext {
+        buildToolsVersion = "30.0.3"
+        minSdkVersion = 21
+        compileSdkVersion = 30
+        targetSdkVersion = 30
+        kotlinVersion = "1.5.10"
     }
-
-    signingConfigs {
-        release {
-            storeFile file('C:/Users/rocio/ExpenseManager/GestorGastos/android/app/my-release-key.jks')
-            storePassword '123456'
-            keyAlias 'my-key-alias'
-            keyPassword '123456'
-        }
+    repositories {
+        google()
+        mavenCentral()
     }
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
-            minifyEnabled enableProguardInReleaseBuilds
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // Asegúrate de tener la versión correcta
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21" 
     }
 }
 
-dependencies {
-    implementation "com.facebook.react:react-native:0.70.0"
-    // otras dependencias
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
