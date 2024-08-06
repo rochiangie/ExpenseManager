@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec40e2c0-19f3-4789-88d7-777ae78e8262" name="Changes" comment="" />
+    <list default="true" id="ec40e2c0-19f3-4789-88d7-777ae78e8262" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ExpenseManagerApp/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManagerApp/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpenseManagerApp/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseManagerApp/android/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +17,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ExpenseManagerApp" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2kIbK21Mkx2hxt71uC0tPQdwqVv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,6 +38,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/rocio/ExpenseManager/VamosDeNuevo",
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
