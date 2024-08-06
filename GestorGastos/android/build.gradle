@@ -1,18 +1,12 @@
 buildscript {
-    ext {
-        buildToolsVersion = "30.0.3"
-        minSdkVersion = 21
-        compileSdkVersion = 30
-        targetSdkVersion = 30
-        kotlinVersion = "1.5.10"
-    }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2' // Asegúrate de tener la versión correcta
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21" 
+        classpath 'com.android.tools.build:gradle:7.0.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21"
+        classpath 'com.facebook.react:react-native-gradle-plugin:0.71.19' // Versión correcta
     }
 }
 
