@@ -11,17 +11,23 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.0.0")
+        classpath("com.android.tools.build:gradle:8.2.2")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
         classpath("com.facebook.react:react-native-gradle-plugin:0.74.0")
-        classpath 'com.android.tools.build:gradle:VERSION'
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        implementation 'com.facebook.react:react-native:+'  // o una versión específica, ej. '0.71.0'
+
+        
     }
 }
 
 allprojects {
     repositories {
-        mavenCentral()
         google()
+        mavenCentral()
+        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
+
 

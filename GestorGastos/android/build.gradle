@@ -1,27 +1,28 @@
-buildscript {
-    ext {
-        buildToolsVersion = "30.0.2"
-        minSdkVersion = 23
-        compileSdkVersion = 34
-        targetSdkVersion = 34
-        kotlinVersion = "1.6.10"
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.gestorgastos"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
     }
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:7.0.0")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        classpath("com.facebook.react:react-native-gradle-plugin:0.74.0")
-        classpath 'com.android.tools.build:gradle:VERSION'
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
 }
 
-allprojects {
-    repositories {
-        mavenCentral()
-        google()
-    }
-}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:30.0.0'
+    implementation 'com.facebook.fbjni:fbjni:0.2.2'
+    implementation 'com.facebook.react:react-native:+'  // o una versión específica, ej. '0.71.0'
 
+
+    // Otras dependencias
+}
