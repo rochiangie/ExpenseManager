@@ -1,21 +1,26 @@
-
 buildscript {
+    ext {
+        buildToolsVersion = "30.0.2"
+        minSdkVersion = 21
+        compileSdkVersion = 30
+        targetSdkVersion = 30
+        kotlinVersion = "1.6.10"
+    }
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://maven.pkg.github.com/facebook/react-native' } // Añadir el repositorio de GitHub
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21"
-        classpath 'com.facebook.react:react-native-gradle-plugin:0.74.0' // Asegúrate de que la versión sea correcta
+        classpath("com.android.tools.build:gradle:7.0.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        classpath("com.facebook.react:react-native-gradle-plugin:0.74.0")
     }
 }
 
 allprojects {
     repositories {
-        google()
         mavenCentral()
-        maven { url 'https://maven.pkg.github.com/facebook/react-native' } // Añadir el repositorio de GitHub
+        google()
     }
 }
+
