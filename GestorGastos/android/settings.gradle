@@ -1,6 +1,5 @@
-rootProject.name = 'GestorGastos'
-apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
-include 'GestorGastos'
-include 'AppModules'
-includeBuild('../node_modules/@react-native/gradle-plugin')
+rootProject.name = 'GestorGastos'
+
+apply from: file("$rootDir/../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
+applyNativeModulesSettingsGradle(settings)

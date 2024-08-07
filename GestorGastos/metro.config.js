@@ -1,9 +1,5 @@
-const { getDefaultConfig } = require('@expo/metro-config');
+const { getDefaultConfig } = require("@expo/metro-config");
 
 const defaultConfig = getDefaultConfig(__dirname);
 
-module.exports = {
-  resolver: {
-    sourceExts: [...defaultConfig.resolver.sourceExts, 'ts', 'tsx'],
-  },
-};
+module.exports = defaultConfig;
