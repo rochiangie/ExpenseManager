@@ -8,6 +8,8 @@ import HomeScreen from './components/HomeScreen';
 import AddExpenseScreen from './components/AddExpenseScreen';
 import ExpenseListScreen from './components/ExpenseListScreen';
 import CategoryChartScreen from './components/CategoryChartScreen';
+import { View } from 'react-native';
+import { WelcomeComponent, ExpenseButton, formatCurrency } from './AppModules';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -23,7 +25,11 @@ function HomeTabs() {
   );
 }
 
-export default function App() {
+const App = () => {
+  const handlePress = () => {
+    console.log(formatCurrency(100)); // Ejemplo de uso de la función formatCurrency
+  };
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
@@ -33,4 +39,6 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default App;
