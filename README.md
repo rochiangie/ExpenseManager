@@ -1,4 +1,6 @@
 ExpenseManager
+
+
 The ExpenseManager is a cross-platform application designed to help users track their daily income and expenses. It provides a simple interface for entering and managing daily transactions. The app categorizes the data and displays weekly income and expenses per category for better financial tracking.
 
 Features:
