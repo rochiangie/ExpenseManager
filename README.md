@@ -28,8 +28,11 @@ Copy code
 
 npm run android    # for Android
 npm run ios        # for iOS
+
 Tech Stack:
 React Native for cross-platform compatibility
 Firebase or local database for storing transactions (if applicable)
+
 License:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
